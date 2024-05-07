@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Montserrat;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.hero{
+    background-image: url('cover.jpg');
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0;
+    color: white;
+
+    .header__nav{
+        margin-left: auto;
+    }
+
+    .header__nav{
+        ul{
+            display: flex;
+            gap: 20px;
+
+            .nav__item{
+                .nav__link{
+                    font-weight: 600;
+                    color: white;
+                    text-decoration: none;
+                }
+                .nav__link:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .header__logo{
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .header__actions{
+        ul{
+            display: flex;
+            gap: 20px;
+        }
+    }
+}
+
+
+
